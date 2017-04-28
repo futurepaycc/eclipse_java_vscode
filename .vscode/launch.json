@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath":"/home/liunix/soft/jdk18/bin",
+            "cwd": "${workspaceRoot}/src/",
+            "startupClass": "com.liuinix.main.Main",
+            "options": [
+                "-classpath",
+                "${workspaceRoot}/bin"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "jdkPath":"/home/liunix/soft/jdk18/bin",
+            "stopOnEntry": true,
+            "cwd": "${workspaceRoot}/src/",
+            "startupClass": "com.liuinix.main.Main",
+            "options": [
+                "-classpath",
+                "${workspaceRoot}/bin"
+            ],
+            "externalConsole": true
+        }
+    ]
+}
