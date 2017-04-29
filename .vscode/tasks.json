@@ -1,0 +1,50 @@
+// {
+//     "version": "0.1.0",
+//     "command": "javac",
+//     "isShellCommand": true,
+//     // "isBuildCommand": true,
+// "args": [
+//     "-g",
+//     "-cp",
+//     "${workspaceRoot}/bin",
+//     "-d",
+//     "${workspaceRoot}/bin",
+//     "${workspaceRoot}/src/com/liuinix/main/Main.java"
+// ],
+//     "showOutput": "always"
+// }
+// {
+//     "version": "0.1.0",
+//     "command": "javac",
+//     "isShellCommand": true,
+//     "showOutput": "always",
+//     // "isBackground": true,
+//     "suppressTaskName": true,
+//     "tasks": [
+//         {
+//             "taskName": "build",
+//             "args": ["-g", "${file}"]
+//         }
+//     ]
+// }
+{
+    "version": "0.1.0",
+    "command": "javac",
+    "isShellCommand": true,
+    "showOutput": "always",
+    // "isBackground": true,
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "-g",
+                "-cp",
+                "${workspaceRoot}/bin",
+                "-d",
+                "${workspaceRoot}/bin",
+                "${workspaceRoot}/src/com/liuinix/main/Main.java"
+            ]
+        }
+    ]
+}
