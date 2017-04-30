@@ -1,4 +1,4 @@
-package com.liuinix.main;
+package com.liunix.main;
 
 public class Main {
 
